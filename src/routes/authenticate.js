@@ -57,8 +57,7 @@ function sendWrongPassword(res) {
 function buildTokenData(user) {
 	return {
 		user: {
-			id: user._id,
-			architect: user.architect
+			id: user._id
 		}
 	};
 }
