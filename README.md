@@ -76,6 +76,7 @@ Content Type: application/vnd.api+json
   "data": {
     "type": "users",
     "attributes": {
+      "email": "newmail@test.org",
       "password": "321"
     }
   }
